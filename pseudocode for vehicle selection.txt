@@ -1,0 +1,42 @@
+START
+	Show form for looking at cars
+		IF button for listing cars is pressed
+			{
+				LIST cars basic details
+			}
+			IF car is selected from list and it does not require a service
+				{
+					Show details per each text box on the form. Name, license plate, etc can't be changed.
+				}
+		ELSE if there are no cars to list
+			{
+				instead LIST a line that says something like "Sorry, there are no available cars."
+			}
+		
+
+START
+	Initialize Form1 - VehicleRenting
+	
+	private void (ButtonForCarRetrieval ( or whatever we call it))
+		{
+			IF (there are items to list)
+				{
+
+					LIST the list of vehicles inside the listBox
+					NAME - REGISTRATION DETAILS - YEAR
+
+				}
+			ELSE 
+				{
+				
+					LIST "Sorry, there are no vehicles available".				
+
+				}
+		}
+'	
+	private void (SelectedIndex_listBox)
+		{
+
+			DISPLAY information about selected vehicle in the information panel
+				
+		}
